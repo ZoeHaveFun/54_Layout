@@ -1,0 +1,96 @@
+* {
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+body{
+    background: #c1a1d3
+}
+#wrap{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #f9fcfb;
+    display: flex;
+    justify-content: center;
+}
+
+#form-tittle{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 32px 0px 16px;
+}
+.box{
+    font-size: 18px;
+    color: #666;
+    margin: 16px 0px;
+}
+.box .tittle{
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.input-box{
+    width: 400px;
+    height: 24px;
+    border: .1px #999 solid;
+    border-radius: 4px;
+    margin-right: 24px;
+} 
+form{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    padding: 0px 8px;
+    
+}
+input:focus{
+    outline-color: #93329e;
+    caret-color: #301b3f;
+}
+textarea:focus{
+    outline-color: #93329e;
+    caret-color: #301b3f;
+}
+#button{
+    width: 12%;
+    height: 4.5%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    background-color: #add2c9;
+    border: .1px #999 solid;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    right: 0px;
+    bottom: 16px;
+}
+#button:hover{
+    width: 12%;
+    height: 4.5%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff3e6;
+    background-color: #c67ace;
+    border: .1px #999 solid;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    right: 0px;
+    bottom: 16px;
+}
+#message{
+    width: 80%;
+    height: 100%;
+    font-size: 18px;
+    border: .1px #999 solid;
+    border-radius: 4px;
+}

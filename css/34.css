@@ -1,0 +1,95 @@
+* {
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+#wrap{
+    width: 760px;
+    height: 100%;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+#top{
+    color: #999;
+    line-height: 1.2;
+    letter-spacing: .04em;
+    margin-bottom: 16px;
+}
+#middle{
+    margin-bottom: 14px;
+    display: flex;
+}
+#middle div{
+    margin-top: 16px;
+    color: rgb(134, 128, 128);
+    line-height: 1.2;
+}
+#middle img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #999;
+    margin-right: 16px;
+}
+#profile{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 24px;
+}
+
+
+.tab-tittle{
+    display: inline-block;
+}
+.tab-tittle a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #999;
+    padding: 8px 32px;
+    border: 1px solid transparent;
+    border-radius: 8px 8px 0px 0px;
+}
+.tab-content{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 0px 16px 16px 16px;
+    background-color: #8ab6d6;
+    color: #666;
+    opacity: 0;
+}
+.tab-content p{
+    width:100%;
+    height: 160px;
+    line-height: 1.2;
+}
+.tab-tittle:target  a{
+    background-color: #8ab6d6;
+    color: white;
+}
+.tab-tittle-active a{
+    background-color: #8ab6d6;
+    color: white;
+}
+.tab-content-active{
+    padding: 16px;
+    height: auto;
+    opacity: 1;
+}
+.tab-tittle:target~.tab-content-active{
+    height: 0;
+    opacity: 0;
+}
+.tab-tittle:target~.tab-tittle-active a{
+    color: white;
+    background-color: #999;
+}
+
+#tab1:target ~ [data-id="tab1"],
+#tab2:target ~ [data-id="tab2"],
+#tab3:target ~ [data-id="tab3"]{
+    padding: 16px;
+    height: auto;
+    opacity: 1;
+}

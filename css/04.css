@@ -1,0 +1,47 @@
+.b-view{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.b-view img{
+    
+    border-radius: 16px;
+    width: 100%;
+}
+.arrow-right{
+    position: absolute;
+    font-size: 100px;
+    font-family: monospace;
+    color: rgba(255, 255, 255, 0.5);
+    top: 250px;
+    right: 80px;
+}
+.arrow-left{
+    position: absolute;
+    font-size: 100px;
+    font-family: monospace;
+    color: rgba(255, 255, 255, 0.5);
+    top: 250px;
+    left: 80px;
+}
+
+.nav {
+    width: 960px;
+    display: flex;
+    margin: auto;
+}
+
+.dote{
+    width: 100%;
+    text-align: center;
+}
+
+.dote span{
+    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    margin: 24px 8px;
+    display: inline-block;
+}

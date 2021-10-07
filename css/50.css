@@ -1,0 +1,145 @@
+body{
+    background-color: #6e7582;
+}
+
+#wrap{
+    width: 90%;
+    height: 100%;
+    margin: 40px auto;
+}
+
+.tab-tittle {
+    display: inline-block;
+    
+}
+.tab-tittle a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px 8px 0px 0px ;
+    padding: 16px 32px;
+    box-shadow: -4px -6px 8px #435560;
+    background-color: #6e7582;
+    margin: 0px 24px 0px;
+    
+}
+.tab-tittle:target a{
+    background-color: #bb8082;
+    color: white;
+}
+/* .tab-tittle-act{
+    color: white;
+}
+.tab-tittle:target ~ .tab-tittle-act a{ 
+    color: white;
+    background-color: #6e7582;
+} */
+
+.tab-con{
+    width: 100%;
+    border-radius: 0px 16px 16px 16px;
+    height:0;  /*這些是為了讓內容都排在同個位置，且注意不能在這層設padding或maerg，不然內容會有間隔*/
+    opacity: 0;
+    overflow: hidden;
+}
+.tab-con .item-wrap-pink{ /*用padding製作內包的感覺*/
+    width:100%;
+    height: 100%;
+    background-color: #bb8082;
+    color: #6e7582;
+    padding: 16px;
+    border-radius: 8px;
+    line-height: 1.2;
+}
+
+.tab-con .item-wrap-white{
+    width:100%;
+    height: 100%;
+    background-color: #edffec;
+    color: #6e7582;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+#tab1:target ~ [data-id="tab1"], /*當按下#tab時，相應的id會被可見*/
+#tab2:target ~ [data-id="tab2"],
+#tab3:target ~ [data-id="tab3"]{
+    height: auto;
+    opacity: 1;
+} 
+.tab-con-act{
+    height: auto;
+    opacity: 1;
+} 
+
+.tab-tittle:target~.tab-con-act{
+    height: 0;
+    opacity: 0;
+} 
+.tab-con .item-wrap-white h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.tab-con .item-wrap-white img{
+    width: 100%;
+    height: 200px;
+    border-radius: 2px;
+}
+
+.tab-con .item-wrap-white li{
+    margin: 8px 16px;
+    font-size: 18px;
+}
+.tab-con .item-wrap-white li::before{
+    content: "•";
+}
+
+
+.item-wrap-white form{
+    margin: auto;
+}
+.box{
+    font-size: 18px;
+    color: #666;
+    margin: 16px 0px;
+}
+.box .tittle{
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.input-box{
+    width: 400px;
+    height: 24px;
+    border: .1px #999 solid;
+    border-radius: 4px;
+    margin-right: 24px;
+} 
+form{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    padding: 0px 8px;
+}
+#button{
+    width: 100px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    background-color: #add2c9;
+    border: .1px #999 solid;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#message{
+    width: 560px;
+    height: 200px;
+    font-size: 18px;
+    border: .1px #999 solid;
+    border-radius: 4px;
+}

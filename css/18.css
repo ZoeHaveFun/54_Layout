@@ -1,0 +1,74 @@
+* {
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+
+body{
+    margin: 32px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#wrap{
+    width: 768px;
+    height: 100%;
+    margin: auto;
+}
+
+#top{
+    color: #666;
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 6px #999;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+#box {
+    width: 768px;
+    height: 100%;
+    margin: auto;
+}
+
+.list {
+    width: 768px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 0.8px rgba(153, 153, 153, 0.8) solid; 
+    padding: 16px 0px;
+}
+
+.list .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgb(153, 153, 153);
+}
+
+.list p{
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    color: #333;
+}
+
+.list .delet{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    padding: 24px;
+    border-radius: 10px;
+    border: 0.8px rgba(153, 153, 153, 0.5) solid;
+    cursor: pointer; 
+    transition: all .3s;
+}
+
+.list .delet:hover{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    padding: 24px;
+    border-radius: 10px;
+    border: 0.8px tomato solid; 
+    background-color: rgba(255, 99, 71, 0.3);
+}

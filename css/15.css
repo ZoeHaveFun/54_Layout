@@ -1,0 +1,265 @@
+* {
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+
+body{
+    margin: 32px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#wrap{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+#wrap #top{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 0px 4px #999;
+    border-radius: 4px;
+    padding:  24px 16px;
+    border: 0.2px #f38c7a solid;
+}
+
+#wrap #top .top-left{
+    width: 50%;
+    height: 100%;
+}
+
+#wrap #top .top-left .b-img{
+    width: 450px;
+    height: 300px;
+}
+
+#wrap #top .top-left .b-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#wrap #top .top-left .s-img{
+    width: 450px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrap #top .top-left .s-img img{
+    width: 110px;
+    height: 110px;
+}
+
+#wrap #top .top-left .s-img img:hover{
+    width: 110px;
+    height: 110px;
+    border: 3px coral solid;
+}
+
+#wrap #top .top-right{
+    width: 50%;
+    height: 410px;
+    
+}
+
+#wrap #top .top-right .product{
+    width: 450px;
+    height: 410px;
+    position: relative;
+}
+
+#wrap #top .top-right .product .item .cart{
+    position: absolute;
+    bottom: 0px;
+}
+
+#wrap #top .top-right .product .item .cart .cart-button-light{
+    background-color: rgba(224, 77, 77, 0.2);
+    border: 0.5px rgb(230, 52, 21) solid; 
+    color: tomato;
+    cursor: pointer;
+    padding: 8px 24px;
+    margin: 0px 32px 0px 140px;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+#wrap #top .top-right .product .item .cart .cart-button-light:hover{
+    background-color: rgba(224, 77, 77, 0.2);
+    border: 0.5px rgb(230, 52, 21) solid; 
+    color: tomato;
+    cursor: pointer;
+    padding: 8px 24px;
+    margin: 0px 32px 0px 140px;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 1;
+}
+
+#wrap #top .top-right .product .item .cart .cart-button-dark{
+    background-color: rgb(233, 41, 41);
+    border: 0.5px rgb(230, 52, 21) solid; 
+    color: white;
+    cursor: pointer;
+    padding: 8px 24px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 120px;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+#wrap #top .top-right .product .item .cart .cart-button-dark:hover{
+    background-color: rgb(233, 41, 41);
+    border: 0.5px rgb(230, 52, 21) solid; 
+    color: white;
+    cursor: pointer;
+    padding: 8px 24px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 120px;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+#wrap #top .top-right .product .pro-tittle{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+#wrap #top .top-right .product .pro-money{
+    font-size: 32px;
+    font-weight: bolder;
+    color: rgb(172, 39, 39);
+    margin: 24px 0px;
+}
+
+#wrap #top .top-right .product .item{
+    width: 100%;
+    height: 100%;
+    margin: 32px 0px;
+    display: flex;
+}
+
+#wrap #top .top-right .product .item .item-tittle{
+    margin: 8px 56px 0px 0px;
+    color: #999;
+}
+
+.top-right .product .item .flavor button{
+    background-color: white;
+    border: 0.5px rgba(153, 153, 153, 0.3) solid; 
+    cursor: pointer;
+    padding: 8px 10px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.top-right .product .item .flavor button:hover{
+    background-color: white;
+    border: 0.5px rgb(230, 52, 21) solid; 
+    color: tomato;
+    cursor: pointer;
+    padding: 8px 10px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#wrap #top .top-right .product .item .number{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-size: 0px;
+}
+
+.top-right .product .number button{
+    background-color: white;
+    border: 0.5px rgba(153, 153, 153, 0.3) solid; 
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    
+}
+
+.top-right .product .number button:hover{
+    background-color: white;
+    border: 0.5px rgb(230, 52, 21) solid; 
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: tomato;
+}
+
+.top-right .product .number input{
+    background-color: white;
+    border: 0.5px rgba(153, 153, 153, 0.3) solid; 
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #999;
+}
+
+.top-right .product .number input:hover{
+    background-color: white;
+    border: 0.5px rgb(230, 52, 21) solid; 
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    color:  tomato;
+}
+
+#wrap #top .top-right .product .item .last{
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+#wrap #container{
+    width: 100%;
+    height: 100%;
+    margin: 24px auto auto;
+    background-color: white;
+    box-shadow: 0px 0px 4px #999;
+    border-radius: 4px;
+    padding:  24px 16px;
+}
+
+#container .con-tittle{
+    font-size: 24px;
+    padding-bottom: 16px ;
+    color: #666;
+    border-bottom: 0.5px rgba(153, 153, 153, 0.3) solid; 
+}
+
+#container .con-text{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+    margin-top: 16px;
+}

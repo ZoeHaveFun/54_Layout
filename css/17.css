@@ -1,0 +1,203 @@
+* {
+    font-family: "Microsoft JhengHei Bold" !important;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 32px 0px;
+    background-color: rgb(255, 255, 255);
+}
+#wrap{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+#top {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+#top .box{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top .icon-box{
+    width: 100px;
+    height: 100%;
+}
+.icon-svg{
+    fill: white;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    
+}
+.icon-bg{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    border-radius: 50px
+}
+.icon-name{
+    text-align: center;
+    color: teal;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.icon-svg-in{
+    fill:  teal;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.icon-bg-in{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px rgb(7, 184, 184) solid
+}
+.icon-name-in{
+    text-align: center;
+    color: rgb(7, 184, 184);
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.top-text{
+    color: rgb(3, 73, 73);
+    width: 960px;
+    height: 100%;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+#form{
+    width: 960px;
+    height: 100%;
+    padding:  24px 0px;
+    border: 0.1px rgba(153, 153, 153, 0.2) solid; 
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.form-box{
+    width: 940px;
+    height: 100%;
+    margin: auto;
+}
+
+.form-box-in{
+    width: 940px;
+    height: 100%;
+    margin: auto auto 24px auto;  
+    padding: 16px;
+    box-shadow: 0px 0px 6px #999;
+    border-radius: 10px;
+}
+
+.tittle-wrap{
+    font-size: 20px;
+    color: #999;
+    margin-bottom: 16px;
+}
+.tittle{
+    color: teal;
+}
+.num-box{
+    width: 800px;
+    height: 32px;
+    border: 1px teal solid;
+    border-radius: 6px;
+}
+.box2{
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    line-height: 1.8; 
+}
+.box3{
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    line-height: 1.8; 
+    display: flex;
+    justify-content: space-between;
+}
+.box4{
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    line-height: 1.2; 
+    color: teal;
+}
+.s-box{
+    width: 200px;
+    height: 32px;
+    border: 1px teal solid;
+    border-radius: 6px;
+}
+.b-box{
+    width: 300px;
+    height: 32px;
+    border: 1px teal solid;
+    border-radius: 6px;
+}
+#bottom{
+    width: 960px;
+    height: 100%;
+    margin:24px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-b{
+    color: white;
+    background-color: teal;
+    font-size: 24px;
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 20px 2px 2px 20px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all .4s;
+}
+.button-n{
+    color: white;
+    background-color: teal;
+    font-size: 24px;
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 2px 20px 20px 2px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.button-b:hover{
+    color: white;
+    background-color: orange;
+    font-size: 24px;
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 20px 2px 2px 20px;
+    opacity: 0.8;
+}
+.button-n:hover{
+    color: white;
+    background-color:orange;
+    font-size: 24px;
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 2px 20px 20px 2px;
+}

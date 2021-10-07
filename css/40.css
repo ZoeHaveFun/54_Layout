@@ -1,0 +1,84 @@
+* {
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+#wrap{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main{
+    width: 720px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    font-size: 18px;
+    color: #666;
+    margin: 16px 0px;
+}
+.box .tittle{
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.input-box{
+    width: 400px;
+    height: 24px;
+    border: .1px #999 solid;
+    border-radius: 4px;
+    margin-right: 24px;
+} 
+form{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    padding: 0px 8px;
+    background-color: #f9fcfb;
+}
+#button{
+    width: 100px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    background-color: #add2c9;
+    border: .1px #999 solid;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#message{
+    width: 560px;
+    height: 200px;
+    font-size: 18px;
+    border: .1px #999 solid;
+    border-radius: 4px;
+}
+
+
+#aside{
+    width: 200px;
+    height: 100%;
+    margin: auto;
+}
+#aside iframe{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px #999;
+}
+.aside-text{
+    font-size: 16px;
+    letter-spacing: .1em;
+    line-height: 1.2;
+    color: #272343;
+    margin-bottom: 24px;
+}

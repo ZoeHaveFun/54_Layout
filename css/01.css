@@ -1,0 +1,124 @@
+.head {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.head img {
+    width: 100%;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+.arrow-right {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 80px;
+    font-family: monospace;
+    position: absolute;
+    top: 40%;
+    right: 60px;
+    cursor: pointer;
+}
+.arrow-right:hover {
+    color: rgba(255, 255, 255);
+    font-size: 80px;
+    font-family: monospace;
+    position: absolute;
+    top: 40%;
+    right: 60px;
+}
+
+.arrow-left {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 80px;
+    font-family: monospace;
+    position: absolute;
+    top: 40%;
+    left: 60px;
+    cursor: pointer;
+}
+.arrow-left:hover {
+    color: rgba(255, 255, 255);
+    font-size: 80px;
+    font-family: monospace;
+    position: absolute;
+    top: 40%;
+    right: 60px;
+}
+
+/* 用偽元素方式 還未解決
+.head div{
+    display: inline-block;
+}
+.wrap {
+    display: inline-block;
+    border: #666 10px;
+    margin: 30px;
+    background-color: #666;
+    position: absolute;
+    top: 25%;
+    right: 50%;
+}
+ .head.wrap::after{
+    content:"sdsdfsdfsdf";
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 100px;
+    right: 80px; 
+} 
+*/
+
+
+.nav {
+    width: 960px;
+    margin: auto;
+    display: flex;
+}
+.nav .box{
+    width: 100%;
+    text-align: center;
+    font-size: 0px;
+}
+
+.nav .box span{
+    border: #666 10px solid;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 24px 8px;
+    transition: all 0.3s;
+}
+
+.nav .box span:hover{
+    border: rgb(236, 186, 94) 10px solid;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 24px 8px;
+}  
+
+.container {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 300px;
+}
+
+.item img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.item p{
+    color: #666;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin-top: 16px;
+    padding: 8px;
+}

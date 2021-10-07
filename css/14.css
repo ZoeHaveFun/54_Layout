@@ -1,0 +1,69 @@
+* {
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+
+body{
+    margin: 32px 0px;
+}
+
+
+#wrap{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+#wrap .card-box {
+    width: 960px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrap .card-box .card{
+    width: 300px;
+    height: 100%;
+    background: white;
+    border: 0.5px rgba(153, 153, 153, 0.3) solid; 
+    border-radius: 4px;
+    box-shadow: 0px 3px 2px  #999;
+    font-size: 0px;
+    margin-bottom: 32px;
+}
+
+#wrap .card-box .card img{
+    width: 298px;
+    height: 250px;
+    margin: auto;
+}
+
+#wrap .card-box .card .card-tittle{
+    margin: 8px;
+    color: #333;
+    font-size: 16px;
+}
+
+#wrap .card-box .card .card-money{
+    margin: 8px 8px 16px;
+    color: rgb(172, 39, 39);
+    font-size: 20px;
+    font-weight: bold;
+}
+/*
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#container .p-img img{
+    width: 300px;
+    height: 100%;
+    margin: auto;
+}
+
+#container .p-money td{
+    width: 300px;
+    height: 100%;
+    margin:auto
+}
+ */

@@ -1,0 +1,119 @@
+body{
+    background-color: #d8ac9c;
+}
+#wrap{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#left{
+    width: 500px;
+    height: 100%;
+    margin-top: 80px;
+}
+#left img{
+    width: 500px;
+    height: 100%;
+    box-shadow:  0px 0px 10px #999;
+    border-radius: 10px;
+}
+#right{
+    width: 600px;
+    height: 100%;
+}
+.name-tittle{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    letter-spacing: .1em;
+    margin-bottom: 16px;
+    /* text-shadow:  0px 2px 8px #666; */
+}
+
+.tittle{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    letter-spacing: .1em;
+    height: 48px;
+    padding-top: 10px;
+    border-bottom: 2px white solid;
+}
+.text{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Microsoft JhengHei Bold";
+    margin-bottom: 18px;
+    margin-top: 4px;
+    line-height: 1.2;
+}
+
+.text li::before{
+    content: "•  ";
+    font-size: 20px;
+}
+
+.right-bottom{
+    width: 600px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.b-box{
+    width: 280px;
+    height: 100%;
+}
+.icon{
+    font-size: 32px;
+    margin: 4px 16px 0px 8px;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+}
+.fa-facebook-square:hover{
+    color: rgb(47, 47, 221);
+}
+.fa-line:hover{
+    color: rgb(40, 129, 17);
+}
+.fa-instagram-square:hover{
+    color: palevioletred;
+}
+.fa-weixin:hover{
+    color: rgb(85, 196, 58);
+}
+
+.box{
+    width: 500px;
+    height: 32px;
+    text-align: center;
+}
+
+.box button{
+    margin-top: 8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color : #999;
+    border:  .1px #999 solid;
+    cursor: pointer;
+    transition: all .3s;
+}
+.box button:hover{
+    margin-top: 8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color : rgb(231, 201, 117);
+    border:  .1px #999 solid;
+}

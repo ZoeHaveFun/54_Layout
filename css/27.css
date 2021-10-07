@@ -1,0 +1,62 @@
+*{
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+
+#wrap{
+    width: 768px;
+    height: 100%;
+    margin: auto;
+    margin-top: 24px;
+}
+.item{
+    width: 768px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.box{
+    width: 380px;
+    height: 250px;
+    padding: 8px;
+    box-shadow: 0px 0px 10px #999;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.box:hover{
+    width: 380px;
+    height: 250px;
+    padding: 8px;
+    box-shadow: 0px 0px 10px orange;
+    border-radius: 8px;
+}
+.item .video{
+    width: 364px;
+    height: 234px;
+    margin: auto;
+}
+.pro-box1{
+    width: 380px;
+    height: 250px;
+    padding: 8px;
+    box-shadow: 0px 0px 10px #999;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.pro-box1:hover{
+    width: 380px;
+    height: 250px;
+    padding: 8px;
+    box-shadow: 0px 0px 10px orange;
+    border-radius: 8px;
+    cursor: pointer;
+    content: url(https://img.onl/RS66S);
+    
+}
+
+.pro-img{
+    width: 160px;
+    height: 160px;
+    margin: 37px 0px 0px 102px;
+}

@@ -1,0 +1,71 @@
+*{
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+
+#wrap{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+#top-text{
+    width: 960px;
+    height: 100%;
+    color: #666;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+#video{
+    width: 960px;
+    height: 500px;
+    color: #666;
+    padding: 8px;
+    margin-bottom: 24px;
+    box-shadow: 0px 0px 10px #999;
+    border-radius: 4px;
+}
+
+#bottom{
+    width: 960px;
+    height: 100%;
+    color: #666;
+}
+.tittle{
+    font-size: 22px;
+    height: 100%;
+    padding-bottom: 8px;
+    border-bottom: 2px #999 solid;
+}
+
+.creater{
+    width: 960px;
+    height: 100%;
+    margin: 8px auto 24px;
+    display: flex;
+}
+.creater img{
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #999;
+    margin-right: 16px;
+}
+.creater h1{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #333;
+}
+
+.coantain{
+    line-height: 1.2;
+    letter-spacing: 1px;
+    padding: 0px 16px;
+    border-bottom: 2px #999 solid;
+}
+.creater a{
+    text-decoration: none;
+    color: teal;
+}

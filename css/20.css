@@ -1,0 +1,45 @@
+* {
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+
+body{
+    margin: 32px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#wrap{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+#top{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    margin-top: 24px;
+    color: #666;
+}
+
+#main{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+.box{
+    width: 960px;
+    height: 260px;
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box img{
+    width: 470px;
+    height: 240px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px #999;
+}

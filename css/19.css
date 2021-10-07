@@ -1,0 +1,265 @@
+* {
+    font-family: "Microsoft JhengHei Bold" !important;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 32px 0px;
+    background-color: rgb(255, 255, 255);
+}
+#wrap{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+#top-view{
+    width: 960px;
+    height: 100%;
+    position: relative;
+}
+
+.arrow-right{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #666;
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    top: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.arrow-right:hover{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #666;
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    top: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px rgb(219, 205, 164);
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.arrow-left{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #666;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    top: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.arrow-left:hover{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #666;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    top: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px rgb(219, 205, 164);
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.arrow{
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.b-img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#bottom-box{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+.box{
+    width: 960px;
+    height: 100%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.box .file{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+#imag{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px #999 solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+
+    fill: #999;
+    background-color: rgba(153, 153, 153, 0.2);
+}
+#imag:hover{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px teal solid;
+    border-radius: 10px;
+
+    fill: white;
+    background-color: rgba(0, 128, 128, 0.5)
+}
+
+#folder{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px #999 solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+
+    fill: #999;
+    background-color: rgba(153, 153, 153, 0.2);
+}
+#folder:hover{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px goldenrod solid;
+    border-radius: 10px;
+
+    fill: white;
+    background-color:  rgba(218, 165, 32, 0.5) 
+}
+
+#mail{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px #999 solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+
+    fill: #999;
+    background-color: rgba(153, 153, 153, 0.2);
+}
+#mail:hover{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px tomato solid;
+    border-radius: 10px;
+
+    fill: white;
+    background-color:  rgba(255, 99, 71, 0.5)
+}
+
+#map{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px #999 solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+
+    fill: #999;
+    background-color: rgba(153, 153, 153, 0.2);
+}
+#map:hover{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px green solid;
+    border-radius: 10px;
+
+    fill: white;
+    background-color:  rgba(0, 128, 0, 0.5)
+}
+
+#user{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px #999 solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+
+    fill: #999;
+    background-color: rgba(153, 153, 153, 0.2);
+}
+#user:hover{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px rgb(51, 51, 167) solid;
+    border-radius: 10px;
+
+    fill: white;
+    background-color:  rgba(51, 51, 167 , 0.5)
+}
+
+#play{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px #999 solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s;
+
+    fill: #999;
+    background-color: rgba(153, 153, 153, 0.2);
+}
+#play:hover{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+    border:  8px brown solid;
+    border-radius: 10px;
+
+    fill: white;
+    background-color:  rgba(165, 42, 42, 0.5)
+}

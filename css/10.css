@@ -1,0 +1,98 @@
+*{
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+
+#wrap {
+    width: 90%;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 40%;
+    height: 100%;
+    margin-right: 32px;
+    box-shadow: 0px 0px 15px #999;
+    border-radius: 2px;
+}
+
+.container .item{
+    width: 100%;
+    padding: 8px;
+    height: 100%;
+    position: relative;
+    
+}
+.container .item img{
+    max-width:  100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    box-shadow: 2px 2px 3px #999;
+    border-radius: 3px;
+}
+
+.container .item p{
+    width: 100%;
+    height: 100%;
+    padding:  16px 0px 32px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    color: rgb(90, 89, 89);
+    border-bottom:  3px rgb(150, 63, 145) solid;
+}
+.container .item p::after{
+    content: "more...";
+    position: absolute;
+    bottom: 16px;
+    right: 24px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.container .item p:hover::after {
+    content: "more...";
+    position: absolute;
+    bottom: 16px;
+    right: 24px;
+    font-weight: bolder;
+    color: rgb(158, 64, 153);
+    cursor: pointer;
+}
+
+#aside {
+    width: 16%;
+    height: 100%;
+    border: 0.5px rgb(223, 221, 221) solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#aside h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    padding: 8px 0px;
+    background-color:  rgb(150, 63, 145);
+}
+
+#aside ul{
+    padding: 8px 16px;
+}
+
+#aside li{
+    padding: 6px 24px;
+    color: #666;
+    transition: all 0.3s;
+}
+#aside li:hover{
+    padding: 6px 0px;
+    color: rgb(150, 63, 145);
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+body{
+    background:  linear-gradient(-45deg, #98ddca, #d5ecc2);
+}
+
+#tittle{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px auto;
+    color: white;
+}
+.wrap{
+    width: 70%;
+    height: 198px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px auto;
+}
+a{
+    border-bottom: transparent;
+    box-sizing: border-box;
+
+}
+a:hover{
+    border-bottom: 4px #fed049 solid;
+    box-sizing: border-box;
+
+}

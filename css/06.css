@@ -1,0 +1,21 @@
+#container{
+    width: 960px;
+    margin: auto;
+    display: flex;
+}
+
+.item {
+    width: 300px;
+    margin: 10px;
+}
+
+.item img{
+    border-radius: 16px;
+    margin: 16px 0px 8px;
+}
+
+.item p{
+    color: #666;
+    font-family: monospace;
+    line-height: 1.5;
+}

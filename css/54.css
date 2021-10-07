@@ -1,0 +1,101 @@
+
+body{
+    background-color: #f6f5f5;
+    min-width: 620px;
+}
+#search-bar{
+    height: 80px;
+    padding: 24px 40px;
+    box-shadow: 0px 2px 8px #999;
+}
+#search-bar i{
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .3s;
+}
+#search-bar i:hover{
+    font-size: 24px;
+    color: #1687a7;
+}
+#search-bar input{
+    border: transparent;
+    font-size: 18px;
+    background-color: unset;
+    border-bottom: 2px #666 solid;
+    width: 500px;
+    outline: unset;
+    caret-color: #1687a7;
+    color: #666;
+    /* box-sizing: border-box; */
+}
+#search-bar input:focus{
+    border: transparent;
+    font-size: 18px;
+    background-color: unset;
+    width: 500px;
+    outline: 2px #1687a7 solid;;
+    caret-color: #1687a7;
+    color: #666;
+}
+
+#news{
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#news .item{
+    width: 900px;
+    margin-bottom: 40px;
+}
+
+.item h6{
+    width: 100%;
+    margin-bottom: 4px;
+    color: #333;
+
+}
+.item h1{
+    display: inline;
+    width: 100%;
+    font-size: 24px;
+    color: #1687a7;
+    cursor: pointer;
+}
+.item h1:hover{
+    width: 100%;
+    font-size: 24px;
+    color: #1687a7;
+    border-bottom:  2px #1687a7 solid;
+}
+.item p{
+    padding: 8px 0px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; /*必要屬性，將該段文字設為block區塊*/
+    -webkit-line-clamp: 2;  /* 出現的行數*/
+    -webkit-box-orient: vertical; /*必要屬性，設定排列方式*/
+    height: 2.5em;
+}
+.wrap{
+    display: flex;
+    margin-top: 8px;
+}
+.video{
+    position: relative;
+    margin-right: 8px;
+}
+.pic{
+    padding: 2px;
+    border-radius: 6px;
+}
+.player{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 38px;
+    left: 78px;
+    fill: white;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .3s;
+}

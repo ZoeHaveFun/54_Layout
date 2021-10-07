@@ -1,0 +1,38 @@
+*{
+    font-family: "Microsoft JhengHei Bold" !important;
+}
+
+#wrap{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.top-text{
+    width: 960px;
+    height: 100%;
+    padding: 8px;
+    color: #999;
+    font-style: italic;
+    line-height: 1.2
+    ;
+}
+.bottom-text{
+    width: 960px;
+    height: 100%;
+    padding: 8px;
+    color: #666;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.bottom-text::first-letter{
+    color: #666;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.pic{
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #999;
+}
